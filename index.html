@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>PASSWORD GENERATOR</title>
 </head>
 
 <body>
    
-    <div id="generator">
-
+    <div class="wrapper">
+        <h1>PASSWORD GENERATOR</h1>
+        <div id="generator" class="mt-20">
+            <p id="target"></p>
+        </div>
+        <P class="mt-40">Clicca il pulsante qui sotto per generare una password!</P>
+        <button onclick="toggleGen()" class="btn mt-40" >
+            <h1>START!</h1>
+        </button>
     </div>
+
 
     <script src="./script.js"></script>
 </body>

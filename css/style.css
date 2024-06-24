@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*LAYOUT CLASSES*/ 
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-image: url(https://getwallpapers.com/wallpaper/full/c/7/8/525024.jpg);
+    background-size: cover;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    background-color: transparent;
+    backdrop-filter: blur(60px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+#generator{
+    height: 30px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+}
+
+#generator:hover{
+    background-color: #3F2B48;
+    border: none;
+    transition: 0.8s;
+}
+
+#target{
+    margin-top: 5px;
+}
+
+.btn{
+    padding: 20PX;
+    font-weight: bolder;
+    border-radius: 30px;
+    color: #3F2B48;
+    border: none;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #3F2B48;
+    transition: 0.8s;
+}
+
+/*UTILITY CLASSES*/
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
